@@ -4,7 +4,7 @@ import keras
 from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 
-model = keras.models.load_model(r"C:\Users\garvi\dataset")
+model = keras.models.load_model(r"C:\Users\Garvi\dataset_CNN")
 
 background = None
 accumulated_weight = 0.5
