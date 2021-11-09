@@ -4,7 +4,7 @@ import keras
 from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 
-model = keras.models.load_model(r"C:\Users\abhij\best_model_dataflair3.h5")
+model = keras.models.load_model(r"C:\Users\garvi\dataset")
 
 background = None
 accumulated_weight = 0.5
